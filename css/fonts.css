@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'BrownProReg';
+    src: url('../fonts/lineto-brownpro-regular.eot');
+    src: url('../fonts/lineto-brownpro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lineto-brownpro-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownProItalic';
+    src: url('../fonts/lineto-brownpro-italic.eot');
+    src: url('../fonts/lineto-brownpro-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lineto-brownpro-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownProBold';
+    src: url('../fonts/lineto-brownpro-bold.eot');
+    src: url('../fonts/lineto-brownpro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lineto-brownpro-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownProBoldItalic';
+    src: url('../fonts/lineto-brownpro-bolditalic.eot');
+    src: url('../fonts/lineto-brownpro-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lineto-brownpro-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HKUoutline';
+    src: url('../fonts/HKU-Outline-v101.eot');
+    src: url('../fonts/HKU-Outline-v101.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HKU-Outline-v101.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HKUnormal';
+    src: url('../fonts/HKU-Normal-v100.eot');
+    src: url('../fonts/HKU-Normal-v100.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HKU-Normal-v100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
