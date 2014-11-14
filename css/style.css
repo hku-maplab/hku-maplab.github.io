@@ -5,7 +5,7 @@
 
 body, table, input, select {
 	font-family: 'BrownProReg', sans-serif;
-	font-size:12pt;
+	font-size:10pt;
 	color:rgba(0,0,0,0.87);
 }
 
@@ -23,24 +23,35 @@ body {
 	padding:0;
 }
 
-/* ELEMENTS */
+/* -- ELEMENTS */
 
 a {
-	color:#5c4b52;
+	color:#73c29c;
 	text-decoration:none;
 }
 a:hover {
 	text-decoration:underline;
 }
 
-/* SECTION */
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+	font-weight:normal;
+	color:rgba(0,0,0,0.54);
+}
+
+/* -- SECTION */
 
 section {
 	width:100%;
 	height:100%;
 }
 
-/* HEADER */
+/* -- HEADER */
 
 .header {
 	z-index:10;
@@ -76,10 +87,12 @@ section {
 	background-size:cover;
 }
 
+/* -- CONTENT */
+
 .content {
 	position:relative;
 	top:0;
-	max-width:960px;
+	width:960px;
 	margin:auto;
 }
 
@@ -103,13 +116,25 @@ section {
 		margin-bottom:12px;
 	}
 	
+	.content .toc a {
+		color:#5c4b52;
+	}
+	
 	.content .block {
 		position:relative;
 		top:16px;
 		left:224px;
+		width:736px;
+		padding-bottom:16px;
 	}
 	
-
+	.content .block table {
+		width:100%;
+	}
+		
+		.block table td {
+			padding:4px 0 4px 0;
+		}
 
 /* -- COMMON */
 
