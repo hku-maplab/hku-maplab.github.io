@@ -28,6 +28,7 @@ body {
 a {
 	color:#73c29c;
 	text-decoration:none;
+	cursor:pointer;
 }
 a:hover {
 	text-decoration:underline;
@@ -40,7 +41,7 @@ h2 {
 
 }
 h3 {
-	font-weight:normal;
+	font-weight:bold;
 	color:rgba(0,0,0,0.54);
 }
 
@@ -128,6 +129,13 @@ section {
 		padding-bottom:16px;
 	}
 	
+	.content .block .ruler {
+		width:100%;
+		height:1px;
+		margin-top:-8px;
+		background:rgba(0,0,0,0.54);
+	}
+	
 	.content .block table {
 		width:100%;
 	}
@@ -151,6 +159,12 @@ section {
 	width:100%; height:100%;
 	text-align:center;
 	vertical-align:middle;
+}
+
+/* Float tools */
+
+.floatright {
+	float:right;
 }
 
 /* Round */
